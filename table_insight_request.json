@@ -1,0 +1,16 @@
+{
+  "data": {
+    "resource": "//bigquery.googleapis.com/projects/${PROJECT_ID}/datasets/${DATASET_ID}/tables/${TABLE_ID}"
+  },
+  "type": "DATA_DOCUMENTATION",
+  "executionSpec": {
+    "trigger": {
+      "onDemand": {}
+    }
+  },
+  "dataDocumentationSpec": {
+    "generationScopes": ["ALL"],
+    "catalogPublishingEnabled": true,
+    "customInstructions": "日本語で生成して。ENUMなどカーディナリティの低いカラムには中にどういったデータが含まれるかのサンプルも説明文に含めて"
+  }
+}
